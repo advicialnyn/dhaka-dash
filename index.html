@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#1b1410">
+<title>ঢাকা ড্যাশ 3D</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage"></div>
+<div id="hud">
+  <div class="col"><span id="tCh">চার্জ ১০০%</span><i><b id="bCh"></b></i></div>
+  <div id="tSc">৳ ০</div>
+  <div class="col r"><span id="tAn">পাবলিক ০%</span><i><b id="bAn"></b></i></div>
+</div>
+<button id="snd">🔊</button>
+<div id="ov"></div>
+<div id="ctl">
+  <div class="grp"><button data-k="l">◀</button><button data-k="r">▶</button></div>
+  <div class="grp"><button data-k="k">ব্রেক</button><button data-k="b">টান</button></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="input.js"></script>
+<script src="world.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
